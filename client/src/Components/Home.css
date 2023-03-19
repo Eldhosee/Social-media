@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+body {
+  font-family: 'Merriweather', serif;
+}
+
+.card {
+    height: 600px; /* Set a fixed height for the container element */
+  }
+  .link{
+    text-decoration: none;
+    color: orangered;
+    font-size: 20px;
+  }
+  input{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  }
+  #myForm{
+    display: none;
+    position: absolute;
+    z-index: 3;
+    opacity: 80%;
+  }
+  #form{
+    margin: 10%;
+  }
+  .card-img-top {
+    height: 40%; /* Make the image fill the full height of the container */
+    object-fit: cover; /* Scale the image while maintaining its aspect ratio */
+  }
+  .circular-image,.img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    z-index: 2;
+    bottom: 6%;
+    left: 60px;
+    background-position: center;
+    border-radius: 50%;
+  }
+  .circular-image2,.img2 {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    z-index: 2;
+    left:0;
+    background-position: center;
+    border-radius: 50%;
+  }
+  #post{
+    height: 500px;
+  }
+  .card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .btn{
+    height: 40px;
+  }
+  @media (max-width:1000px) {
+    .circular-image,.img {
+    left: 40%;
+    }
+    
+  }
+  @media (max-width:400px) {
+    .circular-image,.img {
+    left: 23%;
+    }
+    
+  }
